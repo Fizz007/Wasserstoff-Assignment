@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+
+import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Comingsoon from './Components/Comingsoon';
+import Dashboard from './Components/Dashboard/Dashboard';
+
+import Footer from './Components/Footer';
+
+
+import Navbar from './Components/Navbar';
+
+import Overveiw from './Components/Overveiw/Overveiw';
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+   
+    <Routes>
+     
+     <Route path='/' element={<Overveiw/>} />
+     <Route path='/dashboard' element={<Dashboard/>} />
+     <Route path='/analytics' element={<Comingsoon/>} />
+   
+    </Routes>
+  
+    <Footer/>
+    </>
   );
 }
 

@@ -1,38 +1,358 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo p {
+  font-size: 21px;
+  font-weight: 400;
+  padding-left: 3px;
+  line-height: 20px;
+}
+
+.search_Link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.search_Link .searchbar {
+  align-items: center;
+  width: 38%;
+  height: 30px;
+  background-color: #eef0fa;
+  border-radius: 8px;
+}
+
+.searchbar input[type="search"] {
+  width: 90%;
+  /* height: 100%; */
+  background-color: #eef0fa;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+.navlinks {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.navlinks li {
+  list-style: none;
+}
+
+.navlinks li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #8484a0;
+  text-decoration: none;
+
+  padding: 10px;
+}
+.ic {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  display: flex;
+  /* // background-color: cyan; */
+  justify-content: center;
+  align-items: center;
+}
+
+.ern {
+  font-size: 18px;
+  line-height: 32px;
+  padding-left: 1rem;
+}
+.hd {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.43px;
+}
+
+.count {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+}
+.top_heading {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: -25px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 6rem;
+  min-height: 80vh;
+  width: 35%;
+  padding-left: 4%;
+  background: #e2e4f0;
+}
+.div1 {
+  color: #383874;
+}
+.users {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+}
+span {
+  font-family: "Poppins", sans-serif;
+  padding-left: 1rem;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+}
+
+.total {
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: -1.75px;
+}
+
+.iconss {
+  width: 100%;
+  margin-top: 1rem;
+  color: #383874;
+}
+
+.circle {
+  height: 12vh;
+  width: 400px;
+  display: flex;
+  /* background: #e2e4f0; */
+}
+
+.active_sec {
+  /* margin-top: 50rem; */
+  /* margin-left: 2rem; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.active_user {
+  height: 59px;
+  width: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sty {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  background: #e2e4f0;
+  border-radius: 50%;
+}
+
+.mapps {
+  display: flex;
+  background-color: #e2e4f0;
+  padding-left: 10px;
+}
+
+.mapping {
+  margin-left: 26rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Barchart */
+
+.barchart {
+  height: 75px;
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffff;
+  position: absolute;
+  bottom: 3rem;
+  left: 10%;
+  border-radius: 10px;
+  z-index: 999;
+}
+.sales-figer {
+  width: 15%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.graph {
+  position: relative;
+}
+.underline {
+  position: absolute;
+  bottom: -3px;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(90deg, #ffa63f 20%, #ff708b 70%, #8676ff 30%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Footer */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
+  height: 38px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 1.5rem;
+  color: #5a5a89;
+  position: fixed;
+  bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+}
+
+.country_data {
+  font-size: 20px;
+}
+
+.country {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 9px;
+  display: block;
+  font-size: 16px;
+}
+
+.designfaster {
+  width: 30vw;
+  height: auto;
+  text-align: center;
+}
+
+.headingDesign {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -0.44px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.circle-earning {
+  width: 75%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  height: 40vh;
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.circles {
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+  background: lightgray;
+  margin: auto;
+}
+.item-center {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.innercircle {
+  height: 78px;
+  width: 78px;
+  background: #ffff;
+  border-radius: 50%;
+}
+.innermostcircle {
+  height: 49px;
+  width: 49px;
+  background: lightgray;
+  border-radius: 50%;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: #383874;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+}
+.updown {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+.compare {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 16px;
+  color: #383874;
 }
 
-.App-link {
-  color: #61dafb;
+.types {
+  height: auto;
+  width: 20vw;
+  margin: 0.5rem auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-blue {
+  height: 19vh;
+  border-radius: 15px;
+  width: 75%;
+  margin: auto;
+  background: #8676ff;
 }
+
+.acc-data {
+  width: 75%;
+  border-radius: 15px;
+  padding: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 0.5rem;
+}
+
+.earning_sales {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3rem 0;
+  font-size: 14px;
+  height: 50%;
+  padding: 0.3rem;
+}
+
