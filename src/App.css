@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav {
@@ -13,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  font-family: "Poppins", sans-serif;
+  
 }
 
 .logo {
@@ -63,7 +64,7 @@
 }
 
 .navlinks li a {
-  font-family: "Poppins", sans-serif;
+  
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -94,18 +95,18 @@
   padding-left: 1rem;
 }
 .hd {
-  font-family: "Poppins", sans-serif;
+  
   font-weight: 400;
   letter-spacing: 0.43px;
 }
 
 .count {
-  font-family: "Poppins", sans-serif;
+  
   font-weight: 600;
   letter-spacing: 0.15px;
 }
 .top_heading {
-  font-family: "Poppins", sans-serif;
+  
   position: absolute;
   top: -25px;
 }
@@ -122,14 +123,14 @@
   color: #383874;
 }
 .users {
-  font-family: "Poppins", sans-serif;
+  
   font-size: 20px;
   font-weight: 600;
   line-height: 32px;
   letter-spacing: 0.15px;
 }
 span {
-  font-family: "Poppins", sans-serif;
+  
   padding-left: 1rem;
   font-size: 10px;
   font-weight: 700;
@@ -237,7 +238,7 @@ span {
   color: #5a5a89;
   position: fixed;
   bottom: 0;
-  font-family: "Poppins", sans-serif;
+  
   font-size: 10px;
   font-weight: 700;
   line-height: 16px;
@@ -249,20 +250,20 @@ span {
 }
 
 .country {
-  font-family: "Poppins", sans-serif;
+  
   margin-bottom: 9px;
   display: block;
   font-size: 16px;
 }
 
-.designfaster {
+.design {
   width: 30vw;
   height: auto;
   text-align: center;
 }
 
 .headingDesign {
-  font-family: "Poppins", sans-serif;
+  
   letter-spacing: -0.44px;
   text-align: left;
   font-weight: 400;
@@ -303,7 +304,7 @@ span {
   border-radius: 50%;
 }
 p {
-  font-family: "Poppins", sans-serif;
+  
   color: #383874;
   font-style: normal;
   font-weight: 400;
@@ -311,7 +312,7 @@ p {
   align-items: center;
 }
 .updown {
-  font-family: "Poppins", sans-serif;
+  
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
