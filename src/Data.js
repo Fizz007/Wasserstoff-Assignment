@@ -16,24 +16,24 @@ export const data = {
             "name": "Berlin",
             "data":  "76,541,106",
             "coordinates": {
-                "lat": 90.407608,
-                "long": 23.811056
+                "lat": 52.5200,
+                "long": 13.4050,
             }
         },
         {
             "name": "Chicago",
             "data":  "98,320,300",
             "coordinates": {
-                "lat": -87.6501,
-                "long": 41.85,
+                "lat": 41.8781,
+                "long": 87.6298 ,
             }
         },
         {
             "name": "Mana US",
             "data":  "12,320,300",
             "coordinates": {
-                "lat": -60.02578,
-                "long": -0.117034
+                "lat": 3.1190,
+                "long": 60.0217,
             }
         },
         {
@@ -48,16 +48,16 @@ export const data = {
             "name": "Shanghai",
             "data":  "239,570,110",
             "coordinates": {
-                "lat": 121.46017,
-                "long": 31.224361
+                "lat": 31.2304,
+                "long": 121.4737
             }
         },
         {
             "name": "Queens Land",
             "data":  "60,973,21",
             "coordinates": {
-                "lat": 142.702789,
-                "long": -20.917574
+                "lat": 22.5752,
+                "long": 144.0848,
             }
         },
 
