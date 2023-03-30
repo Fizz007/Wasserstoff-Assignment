@@ -22,4 +22,5 @@ Link:[]
 
 
 Approach...
-After seeing through the entire figma theroughly i have break this figma into components like navigation bar, side, Map,info. The main challenge was to implement a map and graph in react. for which i have researched on google for it and found react leaflet library for maps and rechart for graph. In map how to point the coordinates and pin it  with the given names in figma it was also difficult but after thoroughly reading the documentation of leaflet & recharts library and i am able to do it. For bubble chart i am implementing react bubble library but it was not exactly as same shown in figma so i decided to make on my own. 
+
+After reading through the entire figma theroughly i have break this figma into components like navigation bar, side, Map,info. The main challenge was to implement a map and graph in react. for which i have researched on google for it and found react leaflet library for maps and rechart for graph. In map how to point the coordinates and pin it  with the given names in figma it was also difficult but after thoroughly reading the documentation of leaflet & recharts library and i am able to do it. For bubble chart i am implementing react bubble library but it was not exactly as same shown in figma so i decided to make on my own. 
