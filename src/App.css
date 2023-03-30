@@ -105,7 +105,7 @@
   font-weight: 600;
   letter-spacing: 0.15px;
 }
-.top_heading {
+.top_head {
   
   position: absolute;
   top: -25px;
@@ -265,7 +265,7 @@ span {
 .headingDesign {
   
   letter-spacing: -0.44px;
-  text-align: left;
+  text-align: center;
   font-weight: 400;
   font-size: 24px;
 }
@@ -303,23 +303,24 @@ span {
   background: lightgray;
   border-radius: 50%;
 }
-p {
+.total_earning {
   
-  color: #383874;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   align-items: center;
 }
+
 .updown {
-  
+  color: black;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
 }
 .compare {
-  font-family: "Roboto";
+
   font-size: 12px;
   line-height: 16px;
   color: #383874;
@@ -332,7 +333,7 @@ p {
 }
 
 .bg-blue {
-  height: 19vh;
+  height: 21.5vh;
   border-radius: 15px;
   width: 75%;
   margin: auto;

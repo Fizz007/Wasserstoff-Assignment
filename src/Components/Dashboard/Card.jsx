@@ -1,5 +1,7 @@
 import React from 'react';
 import { RiCopperDiamondLine } from "react-icons/ri";
+import { data } from '../../Data';
+import { CaretUpOutlined, PlusOutlined, QuestionCircleOutlined, ShareAltOutlined, SyncOutlined } from '@ant-design/icons';
 
 const Card = () => {
   return (
@@ -14,40 +16,40 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <p>Total earning</p>
+        <p className='total_earning'>Total earning </p>
         <p className="updown">
-          $12,875 <span>2% up</span>
+          ${data.totalEarning} <span><CaretUpOutlined />2%</span>
         </p>
         <p className="compare">Compared to $21,504 last year</p>
         <div className="types">
           <div>
-            Travel <span>852</span>
+            Travel <span>{data.travel}</span>
             
           </div>
           <div>
-            Presentation <span>753</span>
+            Presentation <span>{data.presentation}</span>
             
           </div>
           <div>
-            Research <span>553</span>
+            Research <span>{data.research}</span>
            
           </div>
         </div>
       </div>
       <div className="bg-blue" style={{ color: "white" }}>
-        <div>
+        <div >
           <p style={{ fontSize: "0.7rem" }}>Total earning</p>
-          <p style={{ fontSize: "1rem" }}>
-            $12,875 <span>2% up</span>
+          <p style={{ fontSize: "1.6rem" }}>
+            ${data.totalEarning} <span><CaretUpOutlined />10%</span>
           </p>
           <p className="compare" style={{ fontSize: "0.7rem" }}>
             Compared to $21,504 last year
           </p>
-        </div>
-        <div>
+       
+      
           <p style={{ fontSize: "0.7rem" }}>Sales</p>
-          <p style={{ fontSize: "1rem" }}>
-            $43,123 <span>12% up</span>
+          <p style={{ fontSize: "1.6rem" }}>
+            ${data.sales} <span><CaretUpOutlined />12%</span>
           </p>
           <p className="compare" style={{ fontSize: "0.7rem" }}>
             Compared to $21,504 last year
@@ -57,14 +59,14 @@ const Card = () => {
 
       <div className="types acc-data">
         <div className='earning_sales'>
-          Travale <span>760</span>
-          2540
+          Travel <span>{data.travel}</span>
+          {data.travel1}
         </div>
         <div className='earning_sales'>
-          Presentation <span>650</span>2304
+          Presentation <span>{data.presentation}</span>{data.presentation1}
         </div>
         <div className='earning_sales'>
-          Research <span>612</span>2140
+          Buisness <span>{data.buisness}</span>{data.buisness1}
         </div>
       </div>
     </div>

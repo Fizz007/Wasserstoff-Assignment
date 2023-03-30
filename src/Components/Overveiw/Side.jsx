@@ -11,7 +11,7 @@ import { data } from '../../Data';
 const Side = () => {
   return (
     <div className='sidebar'>
-      <h5 className='top_heading'>WSTF FRONT-END HACKATHON</h5>
+      <h5 className='top_head'>WSTF FRONT-END HACKATHON</h5>
       <div className="div1 div">
         <p className="users">
           All Users <span>DETAILS</span>
