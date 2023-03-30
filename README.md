@@ -19,14 +19,15 @@ Steps to Run...
 ---
 
 
+<h1>Video Link</h1>
 
-[![IMAGE ALT TEXT HERE](https://youtu.be/QvriOizu0e4/0.jpg)](https://youtu.be/QvriOizu0e4)
-
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/QvriOizu0e4/0.jpg)](http://www.youtube.com/watch?v=QvriOizu0e4)
 
 ---
 
+<h1>Hosted Link</h1>
 
-<h1>Hosted Link...</h1>(https://wasserstoff.netlify.app/)
+[Click here](https://wasserstoff.netlify.app/)
 
 ---
 
