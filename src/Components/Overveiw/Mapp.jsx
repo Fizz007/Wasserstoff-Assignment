@@ -14,8 +14,8 @@ const Mapp = () => {
         <div className="mapping">
     
         <MapContainer
-            center={[data.places[3].coordinates.lat, data.places[3].coordinates.long]}
-            zoom={4.5}
+            center={[data.places[1].coordinates.lat, data.places[1].coordinates.long]}
+            zoom={2.5}
             scrollWheelZoom={0}
             style={{ height: "600px", width: "80vw" }}
            
