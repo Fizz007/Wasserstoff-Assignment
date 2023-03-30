@@ -1,13 +1,14 @@
 
 import React from 'react'
 import Bubbles from './Bubbles'
-import Card from './Card'
+
 import FloatingIcon from './FloatingIcon'
+import Infopanel from './Infopanel'
 
 const Dashboard = () => {
   return (
     <div>
-      <Card/>
+     <Infopanel/>
       <Bubbles/>
       <FloatingIcon/>
     </div>

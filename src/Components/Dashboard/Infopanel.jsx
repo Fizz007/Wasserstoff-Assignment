@@ -3,7 +3,7 @@ import { RiCopperDiamondLine } from "react-icons/ri";
 import { data } from '../../Data';
 import { CaretUpOutlined, PlusOutlined, QuestionCircleOutlined, ShareAltOutlined, SyncOutlined } from '@ant-design/icons';
 
-const Card = () => {
+const Infopanel = () => {
   return (
     <div className="design">
       <p className="headingDesign">Design Faster</p>
@@ -73,4 +73,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Infopanel
