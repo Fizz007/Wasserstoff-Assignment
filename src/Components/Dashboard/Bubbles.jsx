@@ -1,19 +1,21 @@
 import React from "react";
 
-// import "../Dashboard/Bubbles.css";
+import "../Dashboard/Bubbles.css";
 
 const Bubbles = () => {
   return (
-    <div className="container">
+    
       <div className="bubbles item-center">
-            {/* <div className="time-period">
-            <span>1W</span>
-            <span>1M</span>
-            <span>3M</span>
-            <span>1Y</span>
-            <span>All</span>
-            </div> */}
-        {/* <div className="all-bubles item-center">
+      <div class="cont">
+          <div class="button__container">
+            <button class="button">1W</button>
+            <button class="button">1M</button>
+            <button class="button button--active">3M</button>
+            <button class="button">1Y</button>
+            <button class="button">ALL</button>
+          </div>
+        </div>
+        <div className="all-bubles item-center">
           <div className="pink first">
             <p>Investment</p>
             <p className="updown">$12,875</p>
@@ -46,26 +48,26 @@ const Bubbles = () => {
             <p>Investment</p>
             <p className="updown">$12,875</p>
           </div>
-        </div> */}
-        {/* <div className="data">
+        </div>
+        <div className="data">
           <div>
             <span className="title">TREND GOOD</span>
             <br />
-            <span>204</span>
+            <span className="title_data">204</span>
           </div>
           <div>
             <span className="title">SHOPPING VIEWS</span>
             <br />
-            <span>65,540</span>
+            <span className="title_data">65,540</span>
           </div>
           <div>
             <span className="title">STORE DYNAMICS</span>
             <br />
-            <span>324</span>
+            <span className="title_data">324</span>
           </div>
-        </div> */}
+        </div>
       </div>
-    </div>
+ 
   );
 };
 

@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Comingsoon from './Components/Comingsoon';
 import Dashboard from './Components/Dashboard/Dashboard';
+import FloatingIcon from './Components/Dashboard/FloatingIcon';
 
 import Footer from './Components/Footer';
 
@@ -25,7 +26,7 @@ function App() {
      <Route path='/analytics' element={<Comingsoon/>} />
    
     </Routes>
-  
+      
     <Footer/>
     </>
   );

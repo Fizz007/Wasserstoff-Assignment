@@ -3,6 +3,7 @@ import { GrWordpress } from "react-icons/gr";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { NavLink } from "react-router-dom";
 import { AiOutlineUser } from "react-icons/ai";
+import { BsSliders2 } from "react-icons/bs";
 
 const Navbar = () => {
 
@@ -46,6 +47,9 @@ const Navbar = () => {
           <div className="profile">
             <span>
               <AiOutlineUser size={20} />
+            </span>
+            <span>
+              <BsSliders2 size={20}/>
             </span>
           </div>
         </div>

@@ -19,7 +19,7 @@ const Barchart = ({handleOpen}) => {
     <div className="barchart">
       <div className="sales-figer">
         <h3 style={{ color: "#383874", fontWeight: "600" }}>
-          <div style={{ fontSize: "18px", display:"flex" ,margin:"8px 0", alignItems:"center", justifyContent:"center" }} onClick={handleOpen}>Sales Figures</div>
+          <div style={{ fontSize: "18px", display:"flex" ,margin:"8px 0", alignItems:"center", justifyContent:"center" , cursor:"pointer" }} onClick={handleOpen}>Sales Figures</div>
        
           <span style={{fontSize: "18px", display:"flex" , justifyContent:"start"}}>${data.salesFigures}</span>
         </h3>

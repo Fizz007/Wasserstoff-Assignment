@@ -61,5 +61,11 @@ export const data = {
             }
         },
 
-      ]
+      ],
+      "totalEarnings":"12,875",
+      "sales": "43,123",
+      "presentation":862, "development":753, "research":553,
+      "travel":760,"travel1": "2,540",  "presentation":650,"presentation1":"2304", "buisness":612,"buisness1":"2,140",
+      "trensGoods":"204", "shoppingNews": "65,6540", "storeDynamics":"324",
+      "investments":"76,644","investments":"3 months" , "finance":"23,657", "development": "31,657", "buisness2":"21,987", "design":"32984"
 }
