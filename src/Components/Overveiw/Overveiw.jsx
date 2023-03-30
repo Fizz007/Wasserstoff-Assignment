@@ -4,12 +4,13 @@ import Barchart from './Barchart'
 import Info from './Info'
 import Mapp from './Mapp'
 
-import Side from './Side'
+import SideBar from './Sidebar'
 
 const Overveiw = () => {
   return (
     <div>
-     <Side/>
+     <SideBar/>
+     <SideBar/>
       <Mapp/>
       <Barchart/>
       <Info/>

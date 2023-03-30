@@ -8,7 +8,7 @@ import { data } from '../../Data';
 
 
 
-const Side = () => {
+const Sidebar = () => {
   return (
     <div className='sidebar'>
       <h5 className='top_head'>WSTF FRONT-END HACKATHON</h5>
@@ -69,4 +69,4 @@ const Side = () => {
   )
 }
 
-export default Side
+export default Sidebar
